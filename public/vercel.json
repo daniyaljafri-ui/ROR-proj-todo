@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://volume-shaped-qty-interstate.trycloudflare.com/api/$1" }
+  ]
+}
