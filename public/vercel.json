@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://suspected-hopes-diverse-sounds.trycloudflare.com/api/$1" }
+    { "source": "/api/(.*)", "destination": "https://serves-ruled-developers-adequate.trycloudflare.com/api/$1" }
   ]
 }
