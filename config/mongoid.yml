@@ -304,4 +304,4 @@ production:
   # mongodb+srv://USERNAME:PASSWORD@cluster0.rdtlrru.mongodb.net/todo_api_production?retryWrites=true&w=majority
   clients:
     default:
-      uri: <%= ENV["MONGODB_URI"] %>
+      uri: <%= ENV["MONGODB_URI=mongodb+srv://daniyal:daniyal123@cluster0.rdtlrru.mongodb.net/todo_api_prod?retryWrites=true&w=majority&appName=Cluster0"] %>
