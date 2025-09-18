@@ -297,3 +297,11 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+
+production:
+  # Use a single MongoDB connection URI supplied via environment variable.
+  # On Render, set MONGODB_URI to your Atlas connection string, e.g.:
+  # mongodb+srv://USERNAME:PASSWORD@cluster0.rdtlrru.mongodb.net/todo_api_production?retryWrites=true&w=majority
+  clients:
+    default:
+      uri: <%= ENV["MONGODB_URI"] %>
